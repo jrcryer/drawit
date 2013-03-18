@@ -18,6 +18,10 @@
 		1A93D50116F7B95200AC623A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A93D50016F7B95200AC623A /* Default-568h@2x.png */; };
 		1A93D50416F7B95200AC623A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A93D50216F7B95200AC623A /* MainStoryboard.storyboard */; };
 		1A93D50716F7B95200AC623A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93D50616F7B95200AC623A /* ViewController.m */; };
+		1A93D50F16F7B9FE00AC623A /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93D50E16F7B9FE00AC623A /* Canvas.m */; };
+		1A93D51216F7BD0D00AC623A /* CachedCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93D51116F7BD0D00AC623A /* CachedCanvas.m */; };
+		1A93D51516F7C2BF00AC623A /* SweepCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93D51416F7C2BF00AC623A /* SweepCanvas.m */; };
+		1A93D51816F7D5D200AC623A /* SmoothCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93D51716F7D5D200AC623A /* SmoothCanvas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,14 @@
 		1A93D50316F7B95200AC623A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1A93D50516F7B95200AC623A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1A93D50616F7B95200AC623A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A93D50D16F7B9FE00AC623A /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		1A93D50E16F7B9FE00AC623A /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		1A93D51016F7BD0D00AC623A /* CachedCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedCanvas.h; sourceTree = "<group>"; };
+		1A93D51116F7BD0D00AC623A /* CachedCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedCanvas.m; sourceTree = "<group>"; };
+		1A93D51316F7C2BF00AC623A /* SweepCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweepCanvas.h; sourceTree = "<group>"; };
+		1A93D51416F7C2BF00AC623A /* SweepCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweepCanvas.m; sourceTree = "<group>"; };
+		1A93D51616F7D5D200AC623A /* SmoothCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothCanvas.h; sourceTree = "<group>"; };
+		1A93D51716F7D5D200AC623A /* SmoothCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothCanvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +97,18 @@
 			children = (
 				1A93D4F916F7B95200AC623A /* AppDelegate.h */,
 				1A93D4FA16F7B95200AC623A /* AppDelegate.m */,
+				1A93D51016F7BD0D00AC623A /* CachedCanvas.h */,
+				1A93D51116F7BD0D00AC623A /* CachedCanvas.m */,
+				1A93D50D16F7B9FE00AC623A /* Canvas.h */,
+				1A93D50E16F7B9FE00AC623A /* Canvas.m */,
 				1A93D50216F7B95200AC623A /* MainStoryboard.storyboard */,
 				1A93D50516F7B95200AC623A /* ViewController.h */,
 				1A93D50616F7B95200AC623A /* ViewController.m */,
 				1A93D4F116F7B95200AC623A /* Supporting Files */,
+				1A93D51316F7C2BF00AC623A /* SweepCanvas.h */,
+				1A93D51416F7C2BF00AC623A /* SweepCanvas.m */,
+				1A93D51616F7D5D200AC623A /* SmoothCanvas.h */,
+				1A93D51716F7D5D200AC623A /* SmoothCanvas.m */,
 			);
 			path = DrawIt;
 			sourceTree = "<group>";
@@ -176,6 +196,10 @@
 				1A93D4F716F7B95200AC623A /* main.m in Sources */,
 				1A93D4FB16F7B95200AC623A /* AppDelegate.m in Sources */,
 				1A93D50716F7B95200AC623A /* ViewController.m in Sources */,
+				1A93D50F16F7B9FE00AC623A /* Canvas.m in Sources */,
+				1A93D51216F7BD0D00AC623A /* CachedCanvas.m in Sources */,
+				1A93D51516F7C2BF00AC623A /* SweepCanvas.m in Sources */,
+				1A93D51816F7D5D200AC623A /* SmoothCanvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
